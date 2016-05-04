@@ -43,4 +43,5 @@ pip install -r requirements.txt
 gunicorn app:app --conf=./gunicorn.conf.py
 ```
 
+It will run the server on local 8000 port.
 Depending on accepting image formats, it may require some external libraries http://pillow.readthedocs.io/en/3.2.x/installation.html#external-libraries.
